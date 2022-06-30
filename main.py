@@ -8,7 +8,7 @@ from datetime import datetime # saving the file using todays date
 
 #Saving the file using current time
 now = datetime.now()
-dt_string = now.strftime(" %d-%m-%y %H:%M")
+dt_string = now.strftime(" %d-%m-%y %H-%M-%S")
 
 #Running the loop for set time
 for i in range(48):
